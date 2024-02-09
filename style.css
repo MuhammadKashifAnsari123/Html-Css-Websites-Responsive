@@ -1,0 +1,342 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 500px;
+}
+
+.main{
+    background-image: url(./images/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.logo {
+    display: inline-block;
+    width: 19%;
+    margin: 20px;
+    float: left;
+  }
+  .logo img {
+    width: 100%;
+  }
+  .navbar{
+    display: inline-block;
+    float: right;
+    width: 40%;
+    height: 100%;
+  }
+  ul{
+    display: flex;
+  }
+ ul li{
+    color: white;
+    list-style: none;
+    margin-right: 100px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+
+    &:hover{
+        color: white;
+        border-bottom: 5px solid blue; 
+               
+    
+    }
+}
+
+.head{
+    text-align: center;
+    align-items: center;
+    margin-left: 33%;
+}
+
+.head{
+    padding-top: 10%;
+    
+}
+.head h1{
+    font-size: 50px;
+    color: white;
+}
+
+.head P{
+    color: white;
+    font-size: larger;
+    line-height: 30px;
+}
+
+
+
+.btn{
+    height: 40px;
+    width: 16%;
+    border-radius: 10px;
+    border: 3px solid orangered;
+    color: black;
+    font-weight: bold;
+
+    &:hover{
+        background-color: orangered;
+        color: white;
+        transition: 2s;
+
+    }
+}
+
+.body{
+    display: flex;
+    padding-top: 30px;
+}
+
+.images{
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 70%;
+
+}
+.cpa{
+
+
+}
+.text{
+    border-left: 5px solid orangered;
+    height: 100px;
+
+}
+.text{
+    margin-top: 20px;
+    margin-left: 7%;
+    padding-top: 10px;
+}
+.text h1{
+    padding-left: 17px;
+    font-size: 34px;
+    font-weight: 300;
+}
+.text1 h2{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 300;
+}
+
+/* .icon1{
+    padding-top: 20px;
+    padding-left: 300px;
+
+}
+
+.icon1 img{
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px 5px 10px 15px;
+} */
+
+.icon1{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;     
+}
+
+.images1{
+   border: 1px solid #BBBBBB;
+    margin-right: 35px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    line-height: 30px;
+
+    
+    &:hover{
+        color: orangered;
+    }
+
+    &:hover{
+        border: 1px solid orangered;
+    }
+} 
+
+ .images2{
+    border: 1px solid #BBBBBB;
+    margin-right: 35px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    line-height: 30px;
+
+    
+    &:hover{
+        color: orangered;
+    }
+
+    &:hover{
+        border: 1px solid orangered;
+        
+    }
+    
+} 
+ .images3{
+    border: 1px solid #BBBBBB;
+    margin-right: 35px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    line-height: 30px;
+    
+    &:hover{
+        color: orangered;
+    }
+
+    &:hover{
+        border: 1px solid orangered;
+        
+    }
+    
+}  
+
+
+.imgtext{
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+    
+
+}
+
+.girlimag{
+    float: left;
+    width: 49%;
+    height: 393px;
+    background-image: url(./images/jody.jpg);
+    background-size: cover;
+    background-repeat: no repeat;
+}
+
+.btn1{
+    height: 40px;
+    width: 24%;
+    border-radius: 10px;
+    border: 3px solid orangered;
+    color: black;
+    font-weight: bold;
+
+
+    &:hover{
+        background-color: orangered;
+        color: white;
+        transition: 2s;
+
+    }
+}
+
+
+
+.msg{
+    background: #EEEEEE;
+    padding-top: 70px;
+    background: #EEEEEE;
+    width: 52%;
+    height:323px;
+    padding-left: 60px;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    }
+
+
+
+
+ .quote{
+    text-align: center;
+    padding-top: 70px;
+    
+ }  
+
+ .quote h3{
+    font-weight: 300;
+    font-size: 43px;
+ }
+ .Jennifer{
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+
+ }
+
+ .footer{
+    background: #122C54;
+    width: 100%;
+    height: 60vh;
+    margin-top: 35px;
+    text-align: center;
+    display: flex;
+ }
+ .footerleft{
+
+    width: 30%;
+    margin: 61px;
+    margin-left: 350px;
+    /* padding-top: 75px; */
+    
+ }
+
+ 
+ 
+ .footerright{
+   width: 70%;
+   padding-right: 450px;
+   padding-top: 41px;
+   color: white;
+   line-height: 30px;
+   font-size: 20px;
+   border-left: 2px solid orangered;
+   height: 300px;
+   margin: 20px;
+ }
+ .footerright h1{
+    margin-right: 160px;
+ }
+ .Call{
+    
+    margin-right: 153px;
+ }
+ .Fax{
+    padding-right: 153px;
+
+ }
+ .Email{
+    padding-right: 46px;
+ }
+
+ .btn2{
+    
+        height: 40px;
+        width: 39%;
+        border-radius: 10px;
+        border: 3px solid orangered;
+        color: black;
+        font-weight: bold;
+        /* margin-right: 185px; */
+        margin: 15px;
+        &:hover{
+            background-color: orangered;
+            color: white;
+        transition: 2s;
+            
+        }
+    }
+ 
+.btn2{
+    margin-right: 150px;
+}
