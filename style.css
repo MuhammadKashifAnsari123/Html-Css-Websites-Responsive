@@ -121,7 +121,7 @@ a {
 
 .back {
     overflow: hidden;
-    background-image: url(./Images/FebFirstUpdateHero_1366x477.jpg);
+    background-image: url(./FebFirstUpdateHero_1366x477.jpg);
     background-size: 100% 100%;
     /* position: relative;
     background-size: cover !important;
@@ -427,7 +427,7 @@ a {
     margin: 0% auto;
     margin-top: 60px;
     align-items: center;
-    background-image: url(./Images/Gains-Banner-970x280-background.jpg);
+    background-image: url(./Gains-Banner-970x280-background.jpg);
     background-size: cover;
     max-width: 950px;
     height: 275px;
@@ -879,7 +879,7 @@ display: flex;
 }
 
 .centerimages{
-    background-image: url(./Images/POD_SeeShipping_727x463.jpg);
+    background-image: url(./POD_SeeShipping_727x463.jpg);
     height: 60vh;
     padding: 30px;
     width: 60%;
