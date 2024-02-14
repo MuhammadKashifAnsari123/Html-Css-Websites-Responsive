@@ -14,10 +14,7 @@ nav{
     top: 0;
    
 }
-.Navbar {
 
-
-}
 
 .logo {
  margin-top: 10px;
@@ -49,7 +46,7 @@ a {
     color: black;
 }
 
-@media only screen and (min-width:320px) and (max-width:480px) {
+/* @media only screen and (min-width:320px) and (max-width:480px) {
 
     .menu-icon .img{
 
@@ -87,7 +84,7 @@ a {
         text-align: center;
         float: left;
     }
-}
+} */
 /* 
 @media only screen and (min-width:786px) and (max-width:1024px) {
     .nav-link {}
