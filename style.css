@@ -29,7 +29,8 @@ nav{
 
 a {
     color: white;
-    margin-right: 60px;
+   margin: 10px;
+   margin-right: 30px;
     text-decoration: none;
     font-weight: bold;
 
@@ -46,10 +47,10 @@ a {
     color: black;
 }
 
-/* @media only screen and (min-width:320px) and (max-width:480px) {
+@media only screen and (min-width:320px) and (max-width:480px) {
 
     .menu-icon .img{
-
+        width: 200%;
     }
     
 
@@ -66,14 +67,15 @@ a {
     }
 }
 
-@media only screen and (min-width:481px) and (max-width:767px) {
+@media only screen and (min-width:481px) and (max-width:768px) {
     .menu-icon .img{
-        width: 240%;
+        width: 250%;
     }
     
 
     .nav-link {
         display: none;
+        margin: 0;
         
     }
 
@@ -84,44 +86,21 @@ a {
         text-align: center;
         float: left;
     }
-} */
-/* 
-@media only screen and (min-width:786px) and (max-width:1024px) {
-    .nav-link {}
-        
-    a {
-        margin-right: 30px;
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px) {
+    
+    .nav-link {
+        margin: 0;
+        margin-top: 10px;
     }
 
-    .Navbar {
-        height: 80px;
-        text-align: center;
+    .menu-icon {
+     display: none;
     }
 
-} */
+}
 
-/* @media only screen and (min-width:1280px) and (max-width:1536px) {
-
-    a {
-        margin-right: 30px;
-    }
-
-
-
-    .Navbar {
-        height: 70px;
-        text-align: center;
-    }
-
-    a {
-        margin-right: 45px;
-    }
-
-    .Navbar {
-        height: 70px;
-        text-align: center;
-    }
-} */
 
 .back {
     overflow: hidden;
@@ -324,9 +303,7 @@ a {
 }
 
 @media (min-width:768px) and (max-width:1024px) {
-    /* .Navbar {
-        height: 100px;
-    } */
+ 
 
     .input {
         margin: 0% auto;
@@ -358,13 +335,9 @@ a {
 }
 
 @media (min-width:1024px) and (max-width:1280px) {
-    /* .Navbar {
-        height: 100px;
-    } */
+ 
 
-    .nav-link {
-        margin-right: 2%;
-    }
+ 
 
     .input input {
         width: 45%;
@@ -530,7 +503,7 @@ table tr td {
 }
 
 .lefts h3{
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 300;
     padding-top: 20px;
 }
@@ -749,9 +722,10 @@ table tr td {
     padding-top: 2%;
 }
 .valenetext h3{
-    
-    font-size: 40px;
     font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: -0.4px;
+    font-size: 2rem
 }
 .container1{
 display: flex;
@@ -939,7 +913,7 @@ display: flex;
     margin-top: 5%;
 }
 .endtext h2{
-    font-size: 2.8rem;
+    font-size: 1rem;
     font-weight: 300;
 }
 .endimages{
@@ -960,8 +934,8 @@ display: flex;
     margin-bottom: 82px !important;
 }
 .endright h2{
-    line-height: 50px;
-    font-size: 35px;
+    line-height: 40px;
+    font-size: 30px;
     font-weight: 300;
 }
 .endright p{
@@ -978,13 +952,14 @@ display: flex;
 .Msg{
     margin: 0% auto;
     width: 68%;
+    margin-top: 30px;
 }
 .Msg h3{
     font-size: 20px;
     
 }
 .Msg p{
-    line-height: 40px;
+    line-height: 30px;
     padding-top: 10px;
 }
 @media only screen and (min-width:320px) and (max-width:480px) {
@@ -1064,7 +1039,7 @@ display: flex;
         text-align: center;
     }
     .endtext h2{
-        font-size: 2rem;
+        font-size: 30px
     }
     .endimages{
         display: block;
